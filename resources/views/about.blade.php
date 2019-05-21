@@ -34,38 +34,6 @@
                                     </blockquote>
                                 </div>
                             </div>
-                            <!-- 关于作者 -->
-                            <h4 class="text-gray">关于作者</h4>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.viggoz.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.viggoz.com/">
-                                        <div class="xe-comment-entry">
-                                            <a class="xe-user-img">
-                                                <img src="https://avatars1.githubusercontent.com/u/28501148?s=460&v=4" class="img-circle" width="40">
-                                            </a>
-                                            <div class="xe-comment">
-                                                <a href="#" class="xe-user-name overflowClip_1">
-                                                    <strong>Designer. hui-ho.</strong>
-                                                </a>
-                                                <p class="overflowClip_2"> hui-ho@outlook.com</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <br />
-                                            <blockquote>
-                                                <p>
-                                                    这是一个公益项目，而且是<a href="https://github.com/hui-ho/WebStack-Laravel"> 开源 </a>的。你也可以拿来制作自己的网址导航。如果你有更好的想法，可以通过邮件与我联系，欢迎与我交流分享。
-                                                </p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                    <br>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
