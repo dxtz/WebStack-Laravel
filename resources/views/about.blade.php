@@ -8,8 +8,8 @@
         <div class="navbar-inner">
             <div class="navbar-brand">
                 <a href="/" class="logo">
-                    <img src="{{ asset('img/logo_dark@2x.png') }}" width="100%" alt="" class="hidden-xs">
-                    <img src="{{ asset('img/logo@2x.png') }}" width="100%" alt="" class="visible-xs">
+                    <img src="{{ asset('img/logo_dark@2x.png') }}" width="70%" alt="爱慕学堂-logo" title="爱慕学堂-logo" class="hidden-xs">
+                    <img src="{{ asset('img/logo@2x.png') }}" width="100%" alt="爱慕学堂-logo" title="爱慕学堂-logo"" class="visible-xs">
                 </a>
             </div>
             <div class="navbar-mobile-clear"></div>

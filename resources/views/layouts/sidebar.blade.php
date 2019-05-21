@@ -4,10 +4,11 @@
             <!-- logo -->
             <div class="logo">
                 <a href="/" class="logo-expanded">
-                    <img src="{{ asset('img/logo@2x.png') }}" width="100%" alt="" />
+                    <img src="{{ asset('img/logo@2x.png') }}" width="70%" alt="爱慕学堂-logo" title="爱慕学堂-logo" />
+                    <p>爱慕学堂</p>
                 </a>
                 <a href="/" class="logo-collapsed">
-                    <img src="{{ asset('img/logo-collapsed@2x.png') }}" width="40" alt="" />
+                    <img src="{{ asset('img/logo-collapsed@2x.png') }}" width="30" alt="爱慕学堂-logo" title="爱慕学堂-logo"/>
                 </a>
             </div>
             <div class="mobile-menu-toggle visible-xs">
@@ -45,13 +46,13 @@
                 </li>
             @endforeach
 
-            <div class="submit-tag">
+            <!-- <div class="submit-tag">
                 <a href="/about">
                     <i class="linecons-heart"></i>
                     <span class="tooltip-blue">关于本站</span>
                     <span class="label label-Primary pull-right hidden-collapsed">♥︎</span>
                 </a>
-            </div>
+            </div> -->
         </ul>
     </div>
 </div>
