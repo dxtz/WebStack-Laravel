@@ -34,8 +34,7 @@
                     <!-- Add your copyright text here -->
                     <div class="footer-text">
                         &copy; 2019
-                        <a href="/"><strong>WebStack</strong></a> design by <a href="https://github.com/hui-ho" target="_blank"><strong>hui-ho</strong></a>
-                        <!--  - Purchase for only <strong>23$</strong> -->
+                        <a href="/"><strong>爱慕学堂</strong></a>
                     </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
                     <div class="go-up">

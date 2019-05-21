@@ -75,7 +75,7 @@
                 <div class="footer-inner">
                     <div class="footer-text">
                         &copy; 2019
-                        <a href="/"><strong>WebStack</strong></a> design by <a href="https://github.com/hui-ho" target="_blank"><strong>hui-ho</strong></a>
+                        <a href="/"><strong>爱慕学堂</strong></a>
                     </div>
                     <div class="go-up">
                         <a href="#" rel="go-top">
