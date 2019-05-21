@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="viggo">
-    <title>{{ env('APP_NAME') }}</title>
+    <title>爱慕学堂</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">

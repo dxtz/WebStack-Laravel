@@ -5,7 +5,6 @@
             <div class="logo">
                 <a href="/" class="logo-expanded">
                     <img src="{{ asset('img/logo@2x.png') }}" width="70%" alt="爱慕学堂-logo" title="爱慕学堂-logo" />
-                    <p>爱慕学堂</p>
                 </a>
                 <a href="/" class="logo-collapsed">
                     <img src="{{ asset('img/logo-collapsed@2x.png') }}" width="30" alt="爱慕学堂-logo" title="爱慕学堂-logo"/>
