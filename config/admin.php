@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'WebStack',
+    'name' => 'imxt',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Web</b> Stack',
+    'logo' => 'iMxt.net',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>WS</b>',
+    'logo-mini' => '<b>iMxt</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -75,7 +75,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'WebStack',
+    'title' => '爱慕学堂',
 
     /*
     |--------------------------------------------------------------------------
@@ -227,7 +227,7 @@ return [
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
     |
     */
-    'skin' => 'skin-blue-light',
+    'skin' => 'skin-black',
 
     /*
     |--------------------------------------------------------------------------
@@ -316,7 +316,7 @@ return [
             'enable' => true,
         ],
         'login-captcha' => [
-            'enable' => true,
+            'enable' => false,
         ],
         'material-ui' => [
             'enable' => true
