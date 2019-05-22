@@ -23,8 +23,7 @@
             </nav>
 
             @include('layouts.content')
-            
-            
+
             <!-- Main Footer -->
             <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
             <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
@@ -46,6 +45,7 @@
             </footer>
         </div>
     </div>
+    <script src="{{ mix('js/app.js') }}"></script>
     <!-- 锚点平滑移动 -->
     <script type="text/javascript">
     $(document).ready(function() {
@@ -55,7 +55,6 @@
                setTimeout(function(){
                     _this.find('ul').attr("style","")
                }, 300);
-              
             } else {
                 $('.has-sub ul').each(function(id,ele){
                     var _that = $(this)
@@ -105,6 +104,14 @@
         pos = $(href).position().top - 30;
     });
     </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?beb4f963581b569f2af8a5d87929e249";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </body>
-
 </html>
