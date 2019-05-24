@@ -13,7 +13,6 @@ let mix = require('laravel-mix');
 
 mix.styles([
     'resources/assets/web-stack/css/fonts/fontawesome/css/font-awesome.min.css',
-    // 'resources/assets/web-stack/css/fonts/linecons/css/linecons.css',
     'resources/assets/web-stack/css/bootstrap.css',
     'resources/assets/web-stack/css/xenon-core.css',
     'resources/assets/web-stack/css/xenon-components.css',
