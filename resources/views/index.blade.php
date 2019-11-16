@@ -51,16 +51,15 @@
         $(document).ready(function() {
             $(document).on('click', '.has-sub', function(){
                 var _this = $(this)
-                if(!$(this).hasClass('expanded')) {
+                if(!$(_this).hasClass('expanded')) {
                 setTimeout(function(){
                         _this.find('ul').attr("style","")
                 }, 300);
                 } else {
                     $('.has-sub ul').each(function(id,ele){
-                        var _that = $(this)
                         if(_this.find('ul')[0] != ele) {
                             setTimeout(function(){
-                                _that.attr("style","")
+                                _this.attr("style","")
                             }, 300);
                         }
                     })
@@ -79,39 +78,25 @@
             });
             $("a.smooth").click(function(ev) {
                 ev.preventDefault();
-
                 public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
                 ps_destroy();
                 $("html, body").animate({
-                    scrollTop: $($(this).attr("href")).offset().top - 30
+                    scrollTop: $(this).offset().top - 30
                 }, {
                     duration: 500,
                     easing: "swing"
                 });
             });
-            return false;
-        });
-
-        var href = "";
-        var pos = 0;
-        $("a.smooth").click(function(e) {
-            $("#main-menu li").each(function() {
-                $(this).removeClass("active");
-            });
-            $(this).parent("li").addClass("active");
-            e.preventDefault();
-            href = $(this).attr("href");
-            pos = $(href).position().top - 30;
         });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140909894-1"></script>
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140909894-1"></script>-->
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-140909894-1');
+        gtag('config', 'UA-140909894-1');
     </script>
 </body>
 </html>
