@@ -100,12 +100,12 @@
     s.parentNode.insertBefore(hm, s);
     })();
     </script>
-    <script>
+    <!-- <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-140909894-1');
-    </script>
+    </script> -->
 </body>
 </html>
