@@ -100,7 +100,7 @@
         $(this).parent("li").addClass("active");
         e.preventDefault();
         href = $(this).attr("href");
-        console.log(href);
+        console.log($(href));
         pos = $(href).position().top - 30;
     });
     </script>
