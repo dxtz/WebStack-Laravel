@@ -93,15 +93,15 @@
     });
     var href = "";
     var pos = 0;
-    // $("a.smooth").click(function(e) {
-    //     $("#main-menu li").each(function() {
-    //         $(this).removeClass("active");
-    //     });
-    //     $(this).parent("li").addClass("active");
-    //     e.preventDefault();
-    //     href = $(this).attr("href");
-    //     pos = $(href).position().top - 30;
-    // });
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140909894-1"></script>-->
