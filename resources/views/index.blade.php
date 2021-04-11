@@ -100,8 +100,8 @@
         $(this).parent("li").addClass("active");
         e.preventDefault();
         href = $(this).attr("href");
-        console.log($(href).position());
-        pos = $(href).position().top - 30;
+        console.log($(href).offset());
+        pos = $(href).offset().top - 30;
     });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
