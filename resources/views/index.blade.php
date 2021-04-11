@@ -32,7 +32,7 @@
                 <div class="footer-inner">
                     <!-- Add your copyright text here -->
                     <div class="footer-text">
-                        &copy; 2019
+                        &copy; 2021
                         <a href="/"><strong>爱慕学堂</strong></a>
                     </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
